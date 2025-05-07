@@ -37,7 +37,7 @@ image = np.zeros((500, 500, 3), dtype=np.uint8)
 
 
 font = cv2.FONT_HERSHEY_SIMPLEX
-cv2.putText(image, 'Swaminathan. V', (100, 250), font, 1, (255, 255, 255), 2, cv2.LINE_AA)
+cv2.putText(image, 'keerthi', (100, 250), font, 1, (255, 255, 255), 2, cv2.LINE_AA)
 
 
 plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))  # Convert BGR to RGB for displaying
@@ -68,22 +68,23 @@ plt.axis('off')
 
 ### Display the input Image:
 
+![image](https://github.com/user-attachments/assets/072c0abd-2c7e-4303-83a9-f79fe84ba8b7)
 
-![image](https://github.com/user-attachments/assets/e79cd36a-b515-4d1d-9b7d-d2c6cb70101b)
 
 
 
 
 ### Display the Eroded Image:
 
-![image](https://github.com/user-attachments/assets/4a48d66f-29a7-447a-89da-5ed80ddc346a)
+![image](https://github.com/user-attachments/assets/e38917d0-c058-42ba-81f9-566e7d69c4fb)
+
 
 
 
 
 ### Display the Dilated Image:
+![image](https://github.com/user-attachments/assets/b7095738-3792-4581-bb57-8ad6b5c159cd)
 
-![image](https://github.com/user-attachments/assets/dfe8a326-44e1-453d-9a79-a04bae8c9c0c)
 
 
 
